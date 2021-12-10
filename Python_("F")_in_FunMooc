@@ -1,0 +1,19 @@
+x = input()
+value_x = int(x)
+first_value_x = int(x)
+incrementation_value_x = 0
+if value_x != -1:
+  while first_value_x != 0:
+    x = int(input())
+    incrementation_value_x += x
+    first_value_x -= 1
+  else:
+    print(incrementation_value_x - first_value_x)
+else:
+  while x != "F":
+    x = input() 
+    if x != "F":
+      y = int(x)
+      incrementation_value_x += y
+    else: 
+      print(incrementation_value_x + (1 +first_value_x))
